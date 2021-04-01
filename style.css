@@ -1,0 +1,610 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    list-style: none;
+    font-family: 'Rubik', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.header{
+    background: #F6F6F9;
+    
+}
+.header-top{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+   padding-top: 44px;
+
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    
+}
+.header-right{
+    display: flex;
+    
+}
+.kursni-valyutasi{
+    list-style: none;
+    margin-right: 10px;
+    margin-right: 17px;
+}
+.search-btn{
+    width: 142px;
+    height: 42px;
+    margin-right: 17px;
+
+}
+.telgram-btn{
+padding: 10px 12px;
+background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+border-radius: 5px;
+border: none;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+display: flex;
+align-items: center;
+
+transition: all .2s;
+
+}
+.telgram-btn::before{
+    content:'';
+    background-image:url(./imgs/telegram.svg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+
+}
+.telgram-btn:hover{
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+.kurs{
+    display: flex;
+    margin-left: 17px;
+
+}
+.nav{
+    margin-top: 61px;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+    margin-top: 44px;
+    margin-bottom: 18px;
+    padding: 23px;
+  
+
+}
+.nav-item{
+    list-style: none;
+   
+    
+}
+
+   
+.nav-link{
+font-weight: 500;
+font-size: 19px;
+line-height: 23px;
+
+color: #515151;
+text-decoration: none;
+
+transform: all 0.2s;
+}
+.nav-link:hover{
+    color:red;
+
+}
+.nrg{
+    display: inline-block;
+    margin-top: 40px;
+
+}
+
+.main {
+    display: flex;
+    background: #F6F6F9;
+    border-radius: 5px;
+    margin-top: 22px;
+    justify-content: space-between;
+
+}
+
+.part {
+    display: flex;
+    align-items: center;
+}
+
+.covid-info {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+    width: 232px;
+    padding: 42px 0 41px 0;
+}
+
+.covid {
+    margin: 44px 25px 44px 35px;
+}
+
+.mask {
+    margin: 60px 18px 67px 0;
+}
+
+.text-1 {
+    margin: 40px 0 41px 0;
+}
+
+.text-1 h4 {
+    color: red;
+
+}
+
+.smile {
+
+    margin-right: 20px;
+}
+
+.text-2 h4 {
+    color: rgb(41, 202, 41);
+}
+
+.vektor {}
+
+.text-3 {
+    margin-right: 35px;
+    margin-left: 19px;
+}
+
+
+/* *******************section-3******************** */
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 18px;
+}
+
+.data {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 11px;
+    color: #6B6D97;
+
+}
+
+.news-1 {
+    margin-bottom: 18px;
+}
+
+.news-1-text {
+    width: 380px;
+}
+
+.news-4-text {
+    width: 320px;
+
+}
+
+.news-2 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.news-3-text {
+    width: 291px;
+
+}
+
+.article {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+
+    color: #202020;
+
+}
+
+.article:hover {
+    color: blue;
+}
+
+.news-5 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* *************************************** */
+.advertising {
+    display: flex;
+    margin-top: 54px;
+    align-items: center;
+    background: rgba(239, 186, 84, 0.18);
+    border-radius: 5px;
+    /* height: 91px; */
+    padding: 28px 0 28px 34px;
+    justify-content: space-between;
+}
+
+.bell-img {
+
+    margin-right: 19px;
+}
+
+.add-top {
+    display: flex;
+    align-items: center;
+
+}
+
+.ad-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+
+.ad-button {
+    background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+    border-radius: 5px;
+    border: none;
+    padding: 8px 8px 8px 15px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 20px;
+}
+
+.ad-button:hover {
+    background: #515151;
+    box-shadow: 20px 20px 15px rgba(41, 44, 34, 0.19);
+}
+
+/* ***********************SECTION-4*********************** */
+/* ***********************news-left********************** */
+.news-left {
+    margin-top: 38px;
+}
+
+.sardoba-text h5 {
+    width: 434px;
+
+}
+
+.sardoba-head {
+    width: 512px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+
+    color: #434343;
+
+}
+
+.iteam {
+    margin-top: 18px;
+    display: flex;
+
+}
+
+.avtobus-head {
+    width: 512px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #434343;
+
+
+}
+
+.photos {
+    margin-right: 19px;
+}
+
+.avtobus-text {
+    width: 523px;
+
+}
+
+.nutq-head {
+    width: 512px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+
+    color: #434343;
+
+}
+
+.nutq-text {
+    width: 507px;
+}
+
+.calendar {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #7688A4;
+
+}
+
+.calendar::before {
+    content: '';
+    display: inline-block;
+    background-image: url(./images/kalendar.svg);
+    width: 14px;
+    min-height: 16px;
+}
+
+/* *********************news-right************************* */
+.article-news {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-right {
+    background: #F6F6F9;
+    border-radius: 5px;
+    width: 386px;
+    margin-bottom: 20px;
+    padding: 16px 19px 18px 20px;
+    margin-top: 46px;
+}
+
+.line {
+    border: 2px solid #E4E4E4;
+    width: 346px;
+
+}
+
+.days {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 14px;
+    color: #7688A4;
+}
+
+.best-news {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+
+    color: #202020;
+    margin-top: 18px;
+    margin-bottom: 11px;
+
+}
+
+.news-button {
+    background: #295093;
+    border-radius: 5px;
+    padding: 10px 32px;
+    position: absolute;
+    right: 50%;
+    margin-top: 18px;
+    margin-right: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+
+
+/* ***********************SECTION-5************************ */
+.section-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F6F6F9;
+    border-radius: 5px;
+    padding: 37px 20px 0 18px;
+    margin-top: 38px;
+}
+
+.section-5 p {
+    width: 512px;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #333333;
+}
+
+.logotip {
+    width: 162px;
+    height: 50px;
+}
+
+/* **************FOOTER************ */
+.footer {
+    background: #295093;
+    margin-top: 38px;
+
+}
+
+.last-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 18px;
+    color: #FFFFFF;
+    background: #133C82;
+    border-radius: 5px;
+    padding: 9px 12px;
+}
+
+.last-top p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+
+}
+
+.last-text {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.bigline {
+    background: #133C82;
+    width: 1200px;
+    height: 3px;
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+.btn-3 {
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    width: 132px;
+    color: #295093;
+    border: none;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px
+}
+
+.btn-3::before {
+    content: url(./imgs/blue_telgram.svg) ;
+    background-position: center;
+    margin-right: 7px;
+}
+
+.about-company {
+    width: 365px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.last-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reklama {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+
+}
+
+.komanda {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+    margin-right: 200px;
+
+}
+
+.reklama li {
+    padding: 7px;
+}
+
+.komanda li {
+    padding: 7px;
+}
+
+.about-company .sayt {
+    padding-bottom: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+
+
+}
+
+.footer-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+
+}
